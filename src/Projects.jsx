@@ -1,4 +1,5 @@
 import samsungImg from "./assets/samsung.jpeg";
+import todoImage from "./assets/todolist.jpeg";
 
 function Projects() {
   const projectData = [
@@ -14,7 +15,7 @@ function Projects() {
       title: "To-Do List",
       description:
         "A To-Do List app for creating, organizing, and managing tasks efficiently with deadlines, priorities, and a user-friendly interface.",
-      img: "src/assets/todolist.jpeg",
+      img: todoImage,
       tech: ["HTML", "Tailwind CSS", "JavaScript"],
       demo: "https://todo-list-ils8.vercel.app/",
       code: "#",

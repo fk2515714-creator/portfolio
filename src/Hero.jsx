@@ -1,7 +1,10 @@
+import fardeenimage from "./assets/fardeenimage.jpeg";
+
 function Hero() {
   return (
     <section id="home" className="min-h-screen flex items-center pt-20">
       <div className="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+        {/* Text Content */}
         <div className="md:w-1/2 mb-12 md:mb-0 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
             Hi, I'm <span className="gradient-text">Fardeen</span>
@@ -32,7 +35,7 @@ function Hero() {
         <div className="md:w-1/2 flex justify-center animate-slide-up">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-light dark:border-primary-dark">
             <img
-              src="src/assets/fardeenimage.jpeg"
+              src={fardeenimage}
               alt="Profile"
               className="w-full h-full object-cover"
             />
