@@ -1,5 +1,4 @@
 import samsungImg from "./assets/samsung.jpeg";
-// import todoImg from "./assets/todolist.jpeg";
 
 function Projects() {
   const projectData = [
@@ -10,7 +9,6 @@ function Projects() {
       img: samsungImg,
       tech: ["HTML", "Tailwind CSS", "JavaScript"],
       demo: "https://samsung-hazel-nu.vercel.app/",
-      // code: "https://github.com/fardeen/samsung-clone",
     },
     {
       title: "To-Do List",

@@ -7,7 +7,6 @@ function Contact() {
         </h2>
 
         <div className="flex flex-col md:flex-row">
-          {/* Left Side - Contact Info */}
           <div className="md:w-1/2 mb-12 md:mb-0 md:pr-8">
             <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
             <p className="mb-8 text-gray-600 dark:text-gray-300">
@@ -33,7 +32,6 @@ function Contact() {
               />
             </div>
 
-            {/* Social Links */}
             <div className="mt-8">
               <h4 className="font-semibold mb-4">Follow Me</h4>
               <div className="flex space-x-4">
@@ -52,7 +50,7 @@ function Contact() {
                   },
                   { name: "facebook", link: "" },
                 ]
-                  .filter((social) => social.link) // only show if link exists
+                  .filter((social) => social.link)
                   .map((social) => (
                     <a
                       key={social.name}
@@ -68,7 +66,6 @@ function Contact() {
             </div>
           </div>
 
-          {/* Right Side - Contact Form */}
           <div className="md:w-1/2">
             <form className="bg-white dark:bg-gray-700 p-8 rounded-lg shadow-sm space-y-6">
               {[
@@ -129,5 +126,4 @@ function ContactItem({ icon, title, info }) {
   );
 }
 
-// Export at the very end
 export default Contact;
