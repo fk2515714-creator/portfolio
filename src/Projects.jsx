@@ -14,7 +14,7 @@ function Projects() {
       title: "To-Do List",
       description:
         "A To-Do List app for creating, organizing, and managing tasks efficiently with deadlines, priorities, and a user-friendly interface.",
-      img: "src/assets/todo list.jpeg",
+      img: "src/assets/todolist.jpeg",
       tech: ["HTML", "Tailwind CSS", "JavaScript"],
       demo: "https://todo-list-ils8.vercel.app/",
       code: "#",

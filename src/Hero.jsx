@@ -32,7 +32,7 @@ function Hero() {
         <div className="md:w-1/2 flex justify-center animate-slide-up">
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-light dark:border-primary-dark">
             <img
-              src="src/assets/fardeen image.jpeg"
+              src="src/assets/fardeenimage.jpeg"
               alt="Profile"
               className="w-full h-full object-cover"
             />
